@@ -7,7 +7,6 @@ function saludo(nombrePersona) {
 }
 
 saludo(nombre);
-
 let tituloPestaña = document.querySelector("title");
 let tituloWeb = document.querySelector("h1");
 let titulotexto = document.querySelector("p");
