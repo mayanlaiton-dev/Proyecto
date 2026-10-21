@@ -1,0 +1,42 @@
+:root {
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    --body-font: 'Lucida sans', sans-serif;
+    --main-color: #000000;
+}
+
+h1 {
+    font-family: var(--body-font);
+    color: var(--main-color);
+}
+
+div {
+    background-color: #fff;
+    width: 80;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0, 4px 6px rgba(0, 0, 0, 0, 1);
+}
+
+p {
+    font-family: var(--body-font);
+    color: var(--main-color);
+}
+
+
+body {
+    font-family: var(--body-font);
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
