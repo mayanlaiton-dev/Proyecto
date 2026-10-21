@@ -15,19 +15,25 @@ let titulofooter = document.querySelector(" footer p");
 
 let modoColor = "oscuro";
 
+
+
 switch (modoColor) {
     case "oscuro":
-        console.log("Cambiando fondo a negro...");
+        document.body.style.backgroundColor = "#121212";
+        document.body.style.color = "#ffffff";
         break;
 
     case "claro":
-        console.log("Cambiando fondo a blanco...");
+        document.body.style.backgroundColor = "#ffffff";
+        document.body.style.color = "#000000";
         break;
 
     case "neon":
-        console.log("Cambiando fondo a colores brillantes...");
+        document.body.style.backgroundColor = "#ff007f";
+        document.body.style.color = "#ffffff";
         break;
 
     default:
+        document.body.style.backgroundColor = "#f0f0f0";
         console.log("Modo no reconocido, usando color por defecto.");
 }
